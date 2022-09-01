@@ -1,0 +1,42 @@
+[
+    {
+        "titulo": "tarea 01",
+        "estado": "terminada",
+        "id": 1
+    },
+    {
+        "titulo": "tarea 02",
+        "estado": "en progreso",
+        "id": 2
+    },
+    {
+        "titulo": "tarea 03",
+        "estado": "pendiente",
+        "id": 3
+    },
+    {
+        "titulo": "tarea 04",
+        "estado": "pendiente",
+        "id": 4
+    },
+    {
+        "titulo": "tarea 05",
+        "estado": "en progreso",
+        "id": 5
+    },
+    {
+        "titulo": "tarea 06",
+        "estado": "en progreso",
+        "id": 6
+    },
+    {
+        "titulo": "tarea 07",
+        "estado": "terminada",
+        "id": 7
+    },
+    {
+        "titulo": "tarea 08",
+        "estado": "en progreso",
+        "id": 8
+    }
+]

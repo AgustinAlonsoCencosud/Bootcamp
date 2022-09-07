@@ -1,0 +1,29 @@
+/* home.css */
+
+.banner {
+  height: 400px;
+  background-image: url('/images/food.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.products-list {
+  margin-top: 30px;
+  padding: 0 30px 50px;
+}
+
+@media screen and (min-width: 811px) {
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

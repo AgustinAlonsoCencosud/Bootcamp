@@ -1,0 +1,79 @@
+/* header.css */
+
+.header {
+  height: 70px;
+  /* padding: 11px 16px; */
+  background-color: #c5d8b3;
+}
+
+.header__logo {
+  font-size: 48px;
+  text-decoration: none;
+  background-color: aqua;
+}
+
+/* nav-bar */
+.nav-bar {
+  display: none;
+  background-color: aqua;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: black;
+}
+
+.responsive-button {
+  /* float: right; */
+  display: inline-block;
+  width: 24px;
+}
+
+.responsive-button span {
+  display: block;
+  height: 4px;
+  background-color: #888;
+}
+
+.responsive-button span:not(:first-child) {
+  margin-top: 4px;
+}
+
+.cols {
+  display: inline-block;
+  width: 49%;
+  background-color: bisque;
+  
+}
+
+.cols:nth-child(1) {
+  padding-left: 16px;
+}
+
+.cols:nth-child(2) {
+  text-align: right;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 811px) {
+  .nav-bar {
+    display: inline-block;
+  }
+
+  .nav-bar a{
+    margin-left: 30px;
+  }
+
+  .responsive-button {
+    display: none;
+  }
+
+  .cols:nth-child(1) {
+    padding-left: 50px;
+  }
+  
+  .cols:nth-child(2) {
+    padding-right: 50px;
+  }
+  
+}

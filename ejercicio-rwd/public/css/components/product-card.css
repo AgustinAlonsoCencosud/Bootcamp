@@ -24,10 +24,6 @@
   display: inline-block;
 }
 
-.product-card h2 {
-  font-weight: normal;
-}
-
 @media screen and (min-width: 811px) {
   .product-card__img img {
     width: 308px;
@@ -37,8 +33,7 @@
   .product-card {
     height: 506px;
     width: 308px;
-    margin-top: 0px;
-    margin: 0px 25px 0px 25px;
+    margin: 0px 25px 25px 25px;
   }
 
   .product-card:not(:first-child) {
@@ -46,6 +41,10 @@
   }
 
   .product-card__info {
-    margin: 30px;
+    padding: 15px;
+  }
+
+  .product-card__info > * {
+    margin: 10px;
   }
 }
